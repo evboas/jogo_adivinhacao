@@ -9,6 +9,12 @@ int main(){
     cout << "*** Bem vindos ao jogo da adivinhação ***" << endl;
     cout << "*****************************************" << endl;
 
+    cout << endl;
+    cout << "Você deve escolher um número de 1 - 100 e tentar adivinhar o número sorteado pelo computador." << endl;
+    cout << "Você é capaz de vencer o computador?" << endl;
+    cout << endl;
+
+
     srand(time(NULL));
     int numero_secreto = rand() % 100;
 
